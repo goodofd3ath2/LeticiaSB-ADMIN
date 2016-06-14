@@ -28,9 +28,46 @@
                                 <div class="tab-pane fade in active" id="home">
                                     <h4>Informações </h4>
                                     <div class="form-group">
+                                            <label>Suas informações</label>
+                                            <div class="form-group">
                                             <label>Nome:</label>
-                                            <p class="form-control-static">email@example.com</p> <!-- colocar < // % nome para mudar de monitor -->
+                                            <input class="form-control" placeholder="Enter text">
                                         </div>
+                                            <p class="form-control-static">NUMLOGIN#####</p> <!-- colocar < // % nome para mudar de monitor -->
+                                        </div>
+                                     <div class="form-group">
+                                            <label>Descrição sobre a matéria</label>
+                                            <textarea class="form-control" rows="3"></textarea>
+                                        </div>
+                                    <p>Está feliz com os resultados?</p>
+                                     <div class="form-group">
+                                            <label>Checkboxes</label>
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox" value="">Sim
+                                                </label>
+                                            </div>
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox" value="">Não
+                                                </label>
+                                            </div>
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox" value="">Mais ou menos
+                                                </label>
+                                            </div>
+                                        </div>
+                                    <button type="button" class="btn btn-outline btn-info">Confirmar</button>
+                                    <div class="panel-body">
+                                      <a class="btn btn-block btn-social btn-facebook">
+                                <i class="fa fa-facebook"></i> Sign in with Facebook
+                            </a>
+                                     <a class="btn btn-block btn-social btn-twitter">
+                                <i class="fa fa-twitter"></i> Sign in with Twitter
+                            </a>
+                                 </div>
+                            </div>
                                 </div>
                                 <div class="tab-pane fade" id="profile">
                                     <h4>Grafico</h4>
@@ -40,33 +77,75 @@
                                 <div class="tab-pane fade" id="messages">
                                     <h4>Questionario</h4>
                                     <label>Questionario sobre os monitores:</label>
-                                         <button type="button" class=" btn btn-outline btn-danger btn btn-outline btn-primary btn-lg">Link</button>
+                                         <button type="button" class=" btn btn-outline btn-danger btn btn-outline btn-primary btn-lg">Questionario</button>
+                                         <div class="panel-body">
+                               <div class="alert alert-danger">
+                               Esse é um link que te levará ao questionario feito sobre os monitores <a href="#" class="alert-link">IMPORTANTE!!</a>.
+                            </div>
+                        </div>
                                     <!-- aqui vai um link para o questionario -->
                                 </div>
                                 <div class="tab-pane fade" id="settings">
                                     <h4>Monitores gerais</h4>
                                     <label>Nomes:</label>
-                                            <p class="form-control-static"> monitor 1</p>
-                                            <p class="form-control-static"> monitor 2</p>
-                                            <p class="form-control-static"> monitor 3</p>
-                                            <p class="form-control-static"> monitor 4</p>
-                                            <p class="form-control-static"> monitor 5</p>
-                                            <p class="form-control-static"> monitor 6</p>
-                                            <p class="form-control-static"> monitor 7</p>
-                                            
-                                    <!-- aqui vai o grafico de media geral dos professores -->
-                                </div>
-                            </div>
+                                      <div class="panel-heading">
+                     Nomes dos monitores e suas respectivas matérias:
                         </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>First Name</th>
+                                            <th>Last Name</th>
+                                            <th>Username</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="success">
+                                            <td>1</td>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                        </tr>
+                                        <tr class="info">
+                                            <td>2</td>
+                                            <td>Jacob</td>
+                                            <td>Thornton</td>
+                                            <td>@fat</td>
+                                        </tr>
+                                        <tr class="warning">
+                                            <td>3</td>
+                                            <td>Larry</td>
+                                            <td>the Bird</td>
+                                            <td>@twitter</td>
+                                        </tr>
+                                        <tr class="danger">
+                                            <td>4</td>
+                                            <td>John</td>
+                                            <td>Smith</td>
+                                            <td>@jsmith</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                 
+                            <!-- /.table-responsive -->
+                        </div>
+                        <!-- /.panel-body -->
                     </div>
-                    <!-- /.col-lg-12 -->
+                    <!-- /.panel -->
                 </div>
-                <!-- /.row -->
+                <!-- /.col-lg-6 -->
             </div>
-            <!-- /.container-fluid -->
+            <!-- /.row -->
         </div>
         <!-- /#page-wrapper -->
-
+                                            
+                </div>
+                
+                                  
         
         <!-- /.panel-heading -->
                        

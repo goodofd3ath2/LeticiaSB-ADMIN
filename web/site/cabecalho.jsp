@@ -174,13 +174,13 @@
                                     <a href="#">Clique aqui <span class="fa arrow"></span></a>
                                     <ul class="nav nav-third-level">
                                         <li>
-                                            <a href="#">Questionario professor</a>
+                                            <a href="professorQuestionario.jsp">Questionario professor</a>
                                         </li>
                                         <li>
-                                            <a href="#">Questionario monitor</a>
+                                            <a href="monitorQuestionario.jsp">Questionario monitor</a>
                                         </li>
                                         <li>
-                                            <a href="#">Index</a>
+                                            <a href="index.jsp">Index</a>
                                         </li>
                                       </ul>
                                     <!-- /.nav-third-level -->
